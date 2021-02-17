@@ -1,0 +1,16 @@
+p {
+  font-family: Lato;
+}
+
+input[type="number"] {
+  display: none;
+}
+
+.btn {
+  background-color: #2386ac;
+  color: white;
+}
+
+.row {
+  margin-right: 20px;
+}
