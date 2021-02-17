@@ -1,9 +1,8 @@
 body {
-  background-color: #16294a;
+  background-color: #08264c;
 }
 
 .scoreboard {
-  //border-style: dotted;
   border-color: white;
   display: inline-flex;
   flex-direction: row;
@@ -24,5 +23,4 @@ body {
   border-width: 2px;
   width: 500px;
   height: 600px;
-
 }

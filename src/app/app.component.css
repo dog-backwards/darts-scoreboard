@@ -2,7 +2,7 @@ p {
   font-family: Lato;
 }
 
-input[type="number"] {
+input[type="date"].disabled::-webkit-inner-spin-button {
   display: none;
 }
 
