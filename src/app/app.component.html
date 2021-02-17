@@ -12,13 +12,39 @@
         />
 
         <button
-          class="btn-floating"
-          (click)="createTask(nameInput.value); nameInput.value = ''"
-        >
+          class="btn-floating" (click)="createTask(nameInput.value); nameInput.value = ''">
           +
         </button>
       </div>
+    <ul class="collection">
+      <li class="collection-item row" *ngFor="let task of tasks; let i = index">
+        <span class="col s10"
+          >{{ i + 1 }}. {{ task.name }}</span>
+      </li>
+    </ul>
+  </div>
+  <!--
+  <div class="player2">
+    <div class="row">
+          <input
+            class="col s8"
+            type="text"
+            placeholder="Enter score"
+            #nameInput
+          />
+
+          <button
+            class="btn-floating">
+            +
+          </button>
+        </div>
+      <ul class="collection">
+        <li class="collection-item row" *ngFor="let task of tasks; let i = index">
+          <span class="col s10"
+            >{{ i + 1 }}. {{ task.name }}</span>
+        </li>
+      </ul>
     </div>
-    <div class="player2"></div>
+    -->
   </div>
 </body>
